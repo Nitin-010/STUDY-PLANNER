@@ -1,58 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Study Planner</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@700&family=Tiro+Devanagari+Hindi:ital@1&display=swap" rel="stylesheet">
-    <style>
-      .font-orbitron { font-family: 'Orbitron', sans-serif; }
-      .font-tiro-hindi { font-family: 'Tiro Devanagari Hindi', serif; }
-      
-      @keyframes bounce-in {
-        0% { transform: scale(0.5); opacity: 0; }
-        50% { transform: scale(1.2); opacity: 1; }
-        100% { transform: scale(1); opacity: 1; }
-      }
-      .animate-bounce-in {
-        animation: bounce-in 0.5s ease-out forwards;
-      }
-      
-      @keyframes pulse-bg {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0.75; }
-      }
-      .animate-pulse-bg {
-          animation: pulse-bg 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-      }
-    </style>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-          },
-        },
-      }
-    </script>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
-  }
-}
-</script>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-  <body class="bg-black">
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
-  </body>
+<body>
+  <h1>Welcome to My Website!</h1>
+  <p>This is my first website hosted on GitHub Pages 🎉</p>
+
+  <button onclick="showMessage()">Click Me</button>
+  <script src="script.js"></script>
+</body>
 </html>
